@@ -1,0 +1,24 @@
+{
+  "name": "react-git",
+  "version": "1.0.0",
+  "description": "learning react start from package",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lingfang",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "babel": {
+     "presets": [
+         "latest"
+      ]
+  }
+}
